@@ -25,19 +25,19 @@ const SHIRT_VARIANTS: ShirtVariant[] = [
   {
     id: "white",
     label: "White",
-    photoUrl: "https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?w=600&h=680&fit=crop&auto=format",
+    photoUrl: "/images/white-shirt.jpg",
     isDark: false,
   },
   {
     id: "black",
     label: "Black",
-    photoUrl: "https://images.unsplash.com/photo-1610502778270-c5c6f4c7d575?w=600&h=680&fit=crop&auto=format",
+    photoUrl: "/images/black-shirt.jpg",
     isDark: true,
   },
   {
     id: "wheat",
     label: "Wheat",
-    photoUrl: "https://images.unsplash.com/photo-1620799139507-2a76f79a2f4d?w=600&h=680&fit=crop&auto=format",
+    photoUrl: "/images/white-shirt.jpg",
     isDark: false,
     photoFilter: "sepia(0.4) brightness(0.88) saturate(0.55)",
   },
