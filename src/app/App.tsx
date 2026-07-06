@@ -66,10 +66,10 @@ function renderDesign(id: string, isDark: boolean): React.ReactNode {
   switch (id) {
     case "form":
       return (
-        <g textAnchor="middle" fontFamily="'DM Serif Display', serif">
+        <g textAnchor="middle" fontFamily="'Be Vietnam', sans-serif">
           <text y="-10" fontSize="18" fill={ink} letterSpacing="5" fontStyle="italic">Form</text>
           <line x1="-22" y1="-3" x2="22" y2="-3" stroke={ink} strokeWidth="0.6" />
-          <text y="10" fontSize="6.5" fill={ink} letterSpacing="8" fontFamily="'DM Sans', sans-serif" fontWeight="300">FUNCTION</text>
+          <text y="10" fontSize="6.5" fill={ink} letterSpacing="8" fontFamily="'Be Vietnam', sans-serif" fontWeight="300">FUNCTION</text>
         </g>
       );
     case "tokyo":
@@ -77,7 +77,7 @@ function renderDesign(id: string, isDark: boolean): React.ReactNode {
         <g textAnchor="middle">
           <text y="-8" fontSize="22" fill={ink} fontFamily="serif" fontWeight="400">東京</text>
           <line x1="-18" y1="-1" x2="18" y2="-1" stroke={fade} strokeWidth="0.6" />
-          <text y="11" fontSize="7" fill={ink} letterSpacing="7" fontFamily="'DM Sans', sans-serif" fontWeight="300">TOKYO</text>
+          <text y="11" fontSize="7" fill={ink} letterSpacing="7" fontFamily="'Be Vietnam', sans-serif" fontWeight="300">TOKYO</text>
         </g>
       );
     case "peak":
@@ -86,12 +86,12 @@ function renderDesign(id: string, isDark: boolean): React.ReactNode {
           <polyline points="-35,18 -8,-24 15,18"  fill="none" stroke={ink} strokeWidth="1.5" strokeLinejoin="round" />
           <polyline points="-20,18 6,-14 28,18"    fill="none" stroke={ink} strokeWidth="1"   strokeLinejoin="round" opacity="0.4" />
           <line x1="-40" y1="18" x2="40" y2="18"  stroke={ink} strokeWidth="0.6" />
-          <text textAnchor="middle" y="30" fontSize="6" fill={ink} letterSpacing="5" fontFamily="'DM Sans', sans-serif" fontWeight="300">PEAK</text>
+          <text textAnchor="middle" y="30" fontSize="6" fill={ink} letterSpacing="5" fontFamily="'Be Vietnam', sans-serif" fontWeight="300">PEAK</text>
         </g>
       );
     case "quiet":
       return (
-        <g textAnchor="middle" fontFamily="'DM Serif Display', serif">
+        <g textAnchor="middle" fontFamily="'Be Vietnam', sans-serif">
           <text y="2" fontSize="20" fill={ink} letterSpacing="10" fontStyle="italic">Quiet</text>
           <line x1="-30" y1="10" x2="30" y2="10" stroke={ink} strokeWidth="0.5" />
         </g>
@@ -102,7 +102,7 @@ function renderDesign(id: string, isDark: boolean): React.ReactNode {
           <text y="-8" fontSize="9" fill={ink} letterSpacing="2" fontFamily="monospace">10°44′N</text>
           <line x1="-22" y1="-2" x2="22" y2="-2" stroke={fade} strokeWidth="0.5" />
           <text y="10" fontSize="9" fill={ink} letterSpacing="2" fontFamily="monospace">106°41′E</text>
-          <text y="23" fontSize="5.5" fill={ink} letterSpacing="4" fontFamily="'DM Sans', sans-serif" fontWeight="300" opacity="0.5">HỒ CHÍ MINH</text>
+          <text y="23" fontSize="5.5" fill={ink} letterSpacing="4" fontFamily="'Be Vietnam', sans-serif" fontWeight="300" opacity="0.5">HỒ CHÍ MINH</text>
         </g>
       );
     case "wave":
@@ -112,15 +112,15 @@ function renderDesign(id: string, isDark: boolean): React.ReactNode {
             fill="none" stroke={ink} strokeWidth="2" strokeLinecap="round" />
           <path d="M -42 14 C -28 -6 -14 34 2 14 C 18 -6 32 26 44 14"
             fill="none" stroke={ink} strokeWidth="1" strokeLinecap="round" opacity="0.3" />
-          <text textAnchor="middle" y="30" fontSize="6.5" fill={ink} letterSpacing="5" fontFamily="'DM Sans', sans-serif" fontWeight="300">SURF</text>
+          <text textAnchor="middle" y="30" fontSize="6.5" fill={ink} letterSpacing="5" fontFamily="'Be Vietnam', sans-serif" fontWeight="300">SURF</text>
         </g>
       );
     case "no-limit":
       return (
-        <g textAnchor="middle" fontFamily="'DM Serif Display', serif">
+        <g textAnchor="middle" fontFamily="'Be Vietnam', sans-serif">
           <text y="-8" fontSize="15" fill={ink} letterSpacing="4">NO LIMIT</text>
           <line x1="-34" y1="-1" x2="34" y2="-1" stroke={ink} strokeWidth="0.6" />
-          <text y="11" fontSize="6" fill={ink} letterSpacing="6" fontFamily="'DM Sans', sans-serif" fontWeight="300">SINCE 2024</text>
+          <text y="11" fontSize="6" fill={ink} letterSpacing="6" fontFamily="'Be Vietnam', sans-serif" fontWeight="300">SINCE 2024</text>
         </g>
       );
     case "horizon":
@@ -130,7 +130,7 @@ function renderDesign(id: string, isDark: boolean): React.ReactNode {
           <circle cx="0" cy="0" r="8" fill={ink} />
           <circle cx="0" cy="0" r="14" fill="none" stroke={ink} strokeWidth="0.6" />
           <circle cx="0" cy="0" r="22" fill="none" stroke={ink} strokeWidth="0.4" opacity="0.5" />
-          <text textAnchor="middle" y="38" fontSize="6" fill={ink} letterSpacing="6" fontFamily="'DM Sans', sans-serif" fontWeight="300">HORIZON</text>
+          <text textAnchor="middle" y="38" fontSize="6" fill={ink} letterSpacing="6" fontFamily="'Be Vietnam', sans-serif" fontWeight="300">HORIZON</text>
         </g>
       );
     default:
